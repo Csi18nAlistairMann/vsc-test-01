@@ -11,10 +11,15 @@ class TestMaffsMethods(unittest.TestCase):
         self.assertEqual(maffs.average_of_three_non_zeroes(maffs, 3, 3, 3),
                         3)
 
+    def test_v1_notnumber(self):
+        maffs = Maffs
+        self.assertEqual(maffs.average_of_three_non_zeroes(maffs, 'a', 3, 3),
+                        -1)
+
     def test_v1_zero(self):
         maffs = Maffs
         self.assertEqual(maffs.average_of_three_non_zeroes(maffs, 0, 3, 3),
-                        -1)
+                        -1)                        
 
     def test_v2_zero(self):
         maffs = Maffs

@@ -4,6 +4,8 @@
 
 class Maffs:
     def average_of_three_non_zeroes(self, v1, v2, v3):
-        if (v1 == 0 or v2 == 0 or v3 == 0): 
+        if (v1 == 0 or v2 == 0 or v3 == 0):
+            return -1
+        if (v1 == 'a' or v2 == 'a' or v3 == 'a'):
             return -1
         return ((v1 + v2 + v3) / 3)

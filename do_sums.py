@@ -2,7 +2,7 @@ from class_Maffs import Maffs
 
 maffs = Maffs()
 
-num1 = 40
+num1 = 'a'
 num2 = 50
 num3 = 60
 av = maffs.average_of_three_non_zeroes(num1, num2, num3)
