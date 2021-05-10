@@ -12,4 +12,3 @@ else:
     msg = ("Average of " + str(num1) + ", " + str(num2) + ", and " + \
             str(num3) + " is: " + str(av))
 print (msg)
-
